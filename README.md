@@ -1,6 +1,6 @@
 # KET GAMES - Official Website
 
-The website for **KET GAMES**, where I share my independent game development work, including my current project, **JumpRift: 3D Platformer**.
+The website for **KET GAMES**, my space to showcase the games I design and create, share the ideas behind them, and show the process of bringing them to life. Based in Nepal. It features my current project, **JumpRift: 3D Platformer**.
 
 Live address (via GitHub Pages): https://ket-games.github.io
 

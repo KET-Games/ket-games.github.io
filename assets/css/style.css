@@ -512,6 +512,27 @@ a.shot:focus-visible img { transform: scale(1.04); }
 .back-cta { text-align: center; }
 .back-cta .btn-row { justify-content: center; margin-top: 1.6rem; }
 
+/* ---------- Privacy policy / long-form text ---------- */
+.policy-page { padding: clamp(1.5rem, 4vw, 3rem) 0 clamp(4rem, 9vw, 7rem); }
+.policy-head, .policy { max-width: 800px; }
+.policy-head { margin-bottom: 2.5rem; }
+.policy-head .section-title { margin-bottom: 1rem; }
+.policy-meta { color: var(--muted); margin: 0; }
+.policy { font-size: 1.05rem; line-height: 1.8; color: #d4d4d9; }
+.policy h2 { font-size: clamp(1.4rem, 3vw, 1.9rem); text-transform: uppercase; color: var(--text); margin: 3rem 0 1rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+.policy h3 { font-size: 1.15rem; color: var(--text); margin: 2rem 0 0.6rem; letter-spacing: 0; }
+.policy ul, .policy ol { padding-left: 1.4rem; margin: 0 0 1.2em; }
+.policy li { margin-bottom: 0.4rem; }
+.policy a { color: #fff; overflow-wrap: anywhere; }
+.policy a:hover { opacity: 0.75; }
+.policy code { font-family: ui-monospace, "Cascadia Code", Consolas, monospace; font-size: 0.92em; background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px; padding: 0.1em 0.45em; overflow-wrap: anywhere; }
+.policy-toc { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.4rem 1.6rem; margin: 2rem 0 0; }
+.policy-toc-title { font-size: 0.78rem !important; letter-spacing: 0.2em; color: var(--muted) !important; margin: 0 0 0.8rem !important; padding: 0 !important; border: 0 !important; }
+.policy-toc ol { margin: 0; }
+.policy-toc a { text-decoration: none; }
+.policy-toc a:hover { text-decoration: underline; }
+.footer-nav a[aria-current="page"] { color: #fff; }
+
 /* ---------- Reveal on scroll ---------- */
 /* Content is always visible; the entrance animation never depends on scrolling or JavaScript observers. */
 @keyframes reveal-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
