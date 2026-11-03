@@ -1,0 +1,11 @@
+# Private studio files - must stay local and never be published
+/README_FOR_CODEX.md
+/docs/
+/assets/jumprift/source-captures/
+
+# Operating system and editor files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
